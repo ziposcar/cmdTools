@@ -1,2 +1,2 @@
 @echo off
-call notepad %1 %2 %3
+call subl -n %1 2>nul || call notepad %1 %2 %3
